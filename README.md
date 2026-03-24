@@ -8,39 +8,42 @@ Start dirt poor. Get dirt rich.
 
 ## 🎯 Overview
 
-Seedy Roots: Grow Rich is a progression-driven simulation game about building a grow operation from the ground up.
+Seedy Roots: Grow Rich is a progression-driven life simulation game where your home becomes your business.
 
-Starting with basic, questionable setups, players expand into increasingly efficient and profitable systems—optimizing their operation, unlocking new tools, and scaling toward a fully realized grow empire.
+Starting with small, questionable setups, players expand into increasingly efficient and profitable grow operations—optimizing layouts, upgrading systems, and scaling toward a full production empire.
 
 Inspired by:
-- The Sims: Bustin’ Out (structured progression)
+- The Sims: Bustin’ Out (mission-driven structure)
 - The Sims 4 (sandbox simulation)
 
-This project explores how strong progression systems and mission-driven design can enhance player engagement in a simulation environment.
+This project explores how structured progression and system-driven gameplay can elevate traditional life sims.
 
 ---
 
 ## 🧠 Core Concept
 
-> Start with dirt → build systems → scale production → generate profit
+> Your home is your workplace.
+
+Start with dirt → build systems → scale production → generate profit
 
 Unlike traditional life sims, Seedy Roots focuses on:
 
-- System-driven progression
+- Integrated life + production systems
 - Optimization and efficiency
-- Incremental upgrades with meaningful impact
-- Clear, guided objectives
+- Space-based progression (closet → warehouse)
+- Clear, mission-driven direction
 
 ---
 
 ## 🔁 Core Gameplay Loop
 
-1. Manage core systems (resources, space, efficiency)
+1. Manage needs (hunger, energy, hygiene, social)
 2. Maintain and optimize grow setups
-3. Generate income from production
-4. Complete missions and objectives
-5. Unlock new equipment, locations, and systems
-6. Expand and refine your operation
+3. Build relationships and expand opportunities
+4. Generate income from production
+5. Complete missions and objectives
+6. Unlock new equipment, locations, and systems
+7. Expand and refine your operation
 
 ---
 
@@ -49,21 +52,26 @@ Unlike traditional life sims, Seedy Roots focuses on:
 ### 🌱 Grow System
 - Core gameplay system replacing traditional “jobs”
 - Setup-based production (lighting, layout, efficiency)
-- Upgrade paths that directly impact output
+- Scales from small personal setups to large operations
 
 ### 📋 Mission System
-- Structured objectives guide progression
+- Structured objectives drive progression
 - Multiple active missions
-- Reward-driven design
+- Directly tied to system expansion and unlocks
 
 ### 📈 Progression System
-- Stage-based expansion of your operation
-- Unlock new systems, tools, and locations
+- Stage-based growth tied to space and capability
+- Unlock new locations, systems, and opportunities
 
 ### 💰 Economy System
 - Income driven by production efficiency
-- Investment into upgrades and expansion
-- Balances growth pacing
+- Reinforces reinvestment and scaling
+- Balances long-term progression pacing
+
+### ❤️ Life Simulation Systems
+- Needs (Hunger, Energy, Hygiene, Social)
+- Social relationships and progression
+- Home building and customization
 
 ---
 
@@ -83,6 +91,7 @@ Unlike traditional life sims, Seedy Roots focuses on:
   - GameStateManager
   - MissionManager
   - UnlockManager
+  - GrowManager
   - EconomyManager
 
 - Data-driven design:
@@ -98,11 +107,8 @@ Unlike traditional life sims, Seedy Roots focuses on:
 Full design documentation is maintained in an Obsidian vault within this repository.
 
 📁 /Design
-# Design Documentation
 
-This folder contains the full game design documentation.
-
-⚠️ Note:
+⚠️ Note:  
 These documents are designed to be viewed in Obsidian.
 
 They use [[wiki-style links]] which are not fully supported by GitHub.
@@ -119,15 +125,6 @@ For best experience:
 - Mission System: ./03_Mission_System/
 - UI/UX: ./05_UI_UX/
 - Technical Architecture: ./06_Technical/
-
-
-This includes:
-- System breakdowns
-- Mission architecture
-- Progression design
-- UI/UX structure
-
-These documents represent the full design layer of the project and are directly aligned with the Unity implementation.
 
 ---
 
@@ -156,8 +153,8 @@ In active development.
 
 Current focus:
 - Core systems architecture
-- Mission system implementation
-- Grow system prototyping
+- Grow system implementation
+- Mission system integration
 - Unity project setup
 
 ---
