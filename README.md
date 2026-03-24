@@ -1,67 +1,69 @@
-# SimLifeGame
-Bustin' Out Clone
+# Seedy Roots: Grow Rich
 
+*From soil to spoils.*
 
-
-# Life Sim: Structured Freedom
-
-A life simulation game that blends open-ended sandbox gameplay with a structured, mission-driven progression system.
+Start dirt poor. Get dirt rich.
 
 ---
 
 ## 🎯 Overview
 
-Life Sim: Structured Freedom is a hybrid between traditional life sims and progression-based games.
+Seedy Roots: Grow Rich is a progression-driven simulation game about building a grow operation from the ground up.
+
+Starting with basic, questionable setups, players expand into increasingly efficient and profitable systems—optimizing their operation, unlocking new tools, and scaling toward a fully realized grow empire.
 
 Inspired by:
-- The Sims: Bustin' Out (mission-driven gameplay)
+- The Sims: Bustin’ Out (structured progression)
 - The Sims 4 (sandbox simulation)
 
-This project explores how structured progression can enhance player engagement in a simulation environment.
+This project explores how strong progression systems and mission-driven design can enhance player engagement in a simulation environment.
 
 ---
 
 ## 🧠 Core Concept
 
-> Start with nothing → build a life → unlock the world
+> Start with dirt → build systems → scale production → generate profit
 
-Unlike traditional life sims, this project introduces:
+Unlike traditional life sims, Seedy Roots focuses on:
 
-- Clear objectives
-- Meaningful progression
-- Unlockable systems and content
+- System-driven progression
+- Optimization and efficiency
+- Incremental upgrades with meaningful impact
+- Clear, guided objectives
 
 ---
 
 ## 🔁 Core Gameplay Loop
 
-1. Manage Needs (Hunger, Energy, Hygiene, Social)
-2. Perform Activities (Work, Skills, Social)
-3. Earn Rewards (Money, XP)
-4. Complete Missions
-5. Unlock Content (Items, Careers, Locations)
-6. Expand gameplay options
+1. Manage core systems (resources, space, efficiency)
+2. Maintain and optimize grow setups
+3. Generate income from production
+4. Complete missions and objectives
+5. Unlock new equipment, locations, and systems
+6. Expand and refine your operation
 
 ---
 
 ## 🧩 Key Systems
 
-### Mission System
-- Structured objectives drive progression
+### 🌱 Grow System
+- Core gameplay system replacing traditional “jobs”
+- Setup-based production (lighting, layout, efficiency)
+- Upgrade paths that directly impact output
+
+### 📋 Mission System
+- Structured objectives guide progression
 - Multiple active missions
-- Reward-based design
+- Reward-driven design
 
-### Progression System
-- Stage-based life progression
-- Unlocks new systems and content
+### 📈 Progression System
+- Stage-based expansion of your operation
+- Unlock new systems, tools, and locations
 
-### Needs System
-- Drives player behavior
-- Impacts performance and outcomes
-
-### Economy System
-- Controls income and spending
-- Balances progression pacing
+### 💰 Economy System
+- Income driven by production efficiency
+- Investment into upgrades and expansion
+- Balances growth pacing
 
 ---
 
@@ -86,10 +88,68 @@ Unlike traditional life sims, this project introduces:
 - Data-driven design:
   - Missions
   - Items
-  - Careers
+  - Grow setups
+  - Progression stages
 
 ---
 
 ## 📚 Design Documentation
 
-Full design documentation is maintained in an Obsidian vault within this repository:
+Full design documentation is maintained in an Obsidian vault within this repository.
+
+📁 /Design
+
+This includes:
+- System breakdowns
+- Mission architecture
+- Progression design
+- UI/UX structure
+
+These documents represent the full design layer of the project and are directly aligned with the Unity implementation.
+
+---
+
+## 🧠 Design → Implementation Pipeline
+
+Design (Obsidian Vault) → Systems Architecture → Unity Implementation
+
+Each system is:
+- Designed in detail within the /Design folder
+- Implemented using modular, data-driven architecture in Unity
+
+---
+
+## 🎮 Project Goals
+
+- Build a scalable, system-driven simulation framework
+- Combine sandbox gameplay with structured progression
+- Create meaningful upgrade paths and player-driven optimization
+- Deliver production-quality systems architecture
+
+---
+
+## 🚧 Current Status
+
+In active development.
+
+Current focus:
+- Core systems architecture
+- Mission system implementation
+- Grow system prototyping
+- Unity project setup
+
+---
+
+## 👤 Developer
+
+Jesse Adams  
+Game Developer & UI Programmer  
+
+---
+
+## 🔥 Why This Project Matters
+
+Most life sims prioritize freedom but lack strong progression systems.
+
+Seedy Roots explores:
+> How structured systems, optimization, and guided objectives can create a more engaging simulation experience.
