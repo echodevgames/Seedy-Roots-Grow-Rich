@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "06_Technical/Production_Pipeline.md",
+                "file": "05_UI_UX/UI_Overview.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Production_Pipeline"
+              "title": "UI_Overview"
             }
           }
         ]
@@ -185,8 +185,9 @@
   },
   "active": "d7690e495d7d8641",
   "lastOpenFiles": [
-    "06_Technical/Unity_Implimentation.md",
+    "00_Meta/Project_Overview.md",
     "06_Technical/Production_Pipeline.md",
+    "06_Technical/Unity_Implimentation.md",
     "06_Technical/Architecture.md",
     "05_UI_UX/Production_UI.md",
     "05_UI_UX/Needs_UI.md",
@@ -209,7 +210,6 @@
     "01_Core_Systems/Core_Gameplay_Loop.md",
     "00_Meta/Design_Pillars.md",
     "Core_Design_Doc.md",
-    "00_Meta/Project_Overview.md",
     "DevLogs/DelLog_03_23_26.md",
     "DevLogs",
     "07_DevLogs",
